@@ -1,0 +1,91 @@
+﻿Abaixo seguem as informações descritivas da tabela utilizada para a atividade final de Applied Statistics
+
+
+1. pesquisador (aluno): 
+Descrição: Nome e/ou identificação do pesquisador responsável pela coleta dos dados. Pode se repetir ao longo da tabela, indicando mais de uma linha coletada pelo pesquisador.
+Tipo: Qualitativa nominal (identificação, sem ordem ou hierarquia).
+
+
+2. pesq_id: 
+Descrição: Identificação única do pesquisador da pesquisa não correspondente ao registro de matrícula. Pode se repetir ao longo da tabela, indicando mais de uma linha coletada pelo pesquisador.
+Tipo: Qualitativa nominal (código único para identificação de cada pesquisador).
+
+3. cep: 
+Descrição: Código postal (CEP) do participante, usado para localização geográfica.
+Tipo: Qualitativa nominal (representa local, mas não possui ordem ou hierarquia).
+
+4. idade:
+Descrição: Idade do participante, em anos.
+Tipo: Quantitativa contínua (valores numéricos com possibilidade de variações fracionárias, mesmo que registradas em inteiros).
+
+5. sexo: 
+Descrição: Gênero do participante (masculino, feminino, representados pelas letras M e F).
+Tipo: Qualitativa nominal (não possui ordem ou hierarquia).
+
+6. peso: 
+Descrição: Peso corporal do participante, em quilogramas.
+Tipo: Quantitativa contínua (valores numéricos com possibilidades fracionárias).
+
+7. altura: 
+Descrição: Altura do participante, em centímetros.
+Tipo: Quantitativa
+
+
+8. estado_civil:
+Descrição: Estado civil do participante, categorizado conforme o código.
+Tipo: Categorica (possui categorias com certa ordem, como solteiro, casado, viúvo).
+   * 1: Solteiro(a)
+   * 2: Casado(a)/União
+   * 3: Divorciado(a)
+   * 4: Separado(a)
+   * 5: Viúvo(a)
+
+
+9. escolaridade: 
+Descrição: Nível de escolaridade do participante, categorizado conforme o código.
+Tipo: categórica (ordem hierárquica).
+   * 1: Ensino médio incompleto
+   * 2: Ensino médio completo
+   * 3: Ensino superior incompleto
+   * 4: Ensino superior completo
+   * 5: Pós-graduação
+   * 6: Mestrado
+   * 7: Doutorado
+
+
+10. consumo_alcool: 
+Descrição: Frequência de consumo de álcool do participante, categorizada conforme código.
+Tipo: Categórica
+   * 1: Diariamente
+   * 2: 4 a 6 vezes por semana
+   * 3: 1 a 3 vezes por semana
+   * 4: 1 a 3 vezes por mês
+   * 5: 1 a 6 vezes no ano
+   * 6: Nunca
+
+
+11. fumante: 
+Descrição: Frequência com que o participante fuma, categorizada conforme código.
+Tipo: Categórica
+   * 1: Diariamente
+   * 2: Às vezes
+   * 3: Raramente
+   * 4: Nunca
+
+
+12. exercicios: 
+Descrição: Frequência com que o participante pratica exercícios físicos, categorizada conforme código.
+Tipo: Categórica
+   * 1: Diariamente
+   * 2: 3 a 4 vezes por semana
+   * 3: 1 a 2 vezes por semana
+   * 4: Nunca
+
+
+13. dieta: 
+Descrição: Tipo de dieta do participante, categorizada conforme código.
+Tipo: Categórica
+   * 1: Sem restrições
+   * 2: Vegetariana (sem carne)
+   * 3: Vegana (sem origem animal)
+   * 4: Saudável (fit)
